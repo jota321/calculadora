@@ -1,0 +1,40 @@
+.degrade{
+	background-image: linear-gradient(45deg, rgb(40, 36, 46), rgb(34, 30, 44));
+	height:100vh;
+	color: white;
+	font-family:Comic Sans Ms;
+	text-align:center;
+}
+.calculadora{
+	position:absolute;
+	background-color: rgb(11, 11, 22);
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:15px;
+}
+.botao{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	background-color:rgb(32, 23, 23);
+	border:none;
+	color:white;
+	margin:3px;
+}
+.botao:hover{
+	background-color:rgb(46, 27, 27);
+}
+
+#resultado{
+	background-color:rgb(161, 130, 130);
+	width:210px;
+	height:30px;
+	margin:5px;
+	padding:5px;
+	text-align:right;
+	color:rgb(36, 25, 25);
+	font-size:25px;
+}
+
